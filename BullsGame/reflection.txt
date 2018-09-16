@@ -1,0 +1,15 @@
+It is a good design :
+
+1. All the patterns are implemented.
+2. Most class has less than 50 lines of code, because some methods are written in other class.
+3. The structure is clear.
+
+
+Why change ?
+
+1. Initial design only considered the main tasks of the game, which is incompleted.
+2. The operating mechanism of getting code from computer and human are totally different,
+so ‘HumanGuess’ does not inherit the ‘CodeProcessor’(an abstract class) that inherited by computer.
+
+3. As an ArrayList that contains all the possible answers was created in the 'Hard Level',
+   both Easy Level and Medium Level can pick a secret code from this list. Therefore, the getCode method is changed.

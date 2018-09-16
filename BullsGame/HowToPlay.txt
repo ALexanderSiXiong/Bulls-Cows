@@ -1,0 +1,25 @@
+Game Process Description
+
+1. Ask weather to save the play information or not
+
+2. Ask weather to play Bonus
+
+2.1 If choose Bonus
+    All the three patterns will be modified, including
+        1. change the total round of the game
+        2. change the characters in a secret code
+        Notes:
+            Any character is allowed to use; (For example: "123dfg09" , "AlSKLkjdou23B4",...)
+            Cannot use any repeated character.
+        3. change the length of the secret code
+
+3. Ask weather to use supplied code
+   (Bonus model cannot use supplied code. The program will skip this step.)
+
+4. Choose the level of the game.
+
+5. Enter a secret code
+
+6. Guess a secret code every round.
+
+7. Get the result.
